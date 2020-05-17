@@ -20,6 +20,19 @@ body {
   padding: 0 1.5em;
 }
 
+.button {
+  background: #5368df;
+  color: white;
+  padding: 1em 0.9em;
+  font-size: 0.9em;
+  font-weight: 500;
+  border-radius: 0.5em;
+  margin-left: 0.5em;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 5px 10px -5px #5368df;
+}
+
 .header {
   background: white;
   position: sticky;
@@ -117,6 +130,44 @@ body {
 }
 .header__socials {
   display: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 3em 0;
+}
+.hero__image {
+  max-width: 100%;
+}
+.hero__back {
+  position: absolute;
+  z-index: -1;
+  height: 170px;
+  width: 300px;
+  top: 205px;
+  right: -15px;
+  border-bottom-left-radius: 65px;
+  background-color: #5368df;
+}
+.hero__content {
+  padding: 3em 0;
+}
+.hero__content h1 {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+.hero__content p {
+  padding: 1em 0;
+  font-size: 0.9em;
+  line-height: 1.5em;
+  color: #9194a1;
+}
+.hero__buttons {
+  padding: 1em 0;
+}
+.hero__buttons-grey {
+  background-color: #fefefe;
+  color: #252b46;
 }
 
 /*# sourceMappingURL=styles.css.map */

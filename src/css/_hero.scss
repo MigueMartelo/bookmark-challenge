@@ -1,0 +1,37 @@
+.hero {
+  text-align: center;
+  padding: 3em 0;
+  &__image {
+    max-width: 100%;
+  }
+  &__back {
+    position: absolute;
+    z-index: -1;
+    height: 170px;
+    width: 300px;
+    top: 205px;
+    right: -15px;
+    border-bottom-left-radius: 65px;
+    background-color: $softBlue;
+  }
+  &__content {
+    padding: 3em 0;
+    h1 {
+      font-size: 1.5em;
+      font-weight: 500;
+    }
+    p {
+      padding: 1em 0;
+      font-size: 0.9em;
+      line-height: 1.5em;
+      color: $grayishBlue;
+    }
+  }
+  &__buttons {
+    padding: 1em 0;
+    &-grey {
+      background-color: #fefefe;
+      color: $veryDarkBlue;
+    }
+  }
+}

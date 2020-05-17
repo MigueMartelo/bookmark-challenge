@@ -24,3 +24,16 @@ body {
   margin: auto;
   padding: 0 1.5em;
 }
+
+.button {
+  background: $softBlue;
+  color: white;
+  padding: 1em 0.9em;
+  font-size: 0.9em;
+  font-weight: 500;
+  border-radius: 0.5em;
+  margin-left: 0.5em;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 5px 10px -5px $softBlue;
+}
