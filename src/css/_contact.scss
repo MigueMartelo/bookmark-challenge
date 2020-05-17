@@ -1,0 +1,39 @@
+.contact {
+  background: $softBlue;
+  padding: 3em 0;
+  text-align: center;
+  color: white;
+  h4 {
+    font-size: 0.8em;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-bottom: 0.8em;
+  }
+  h3 {
+    font-size: 1.2em;
+    font-weight: 500;
+    padding-bottom: 1em;
+  }
+  &__form {
+    max-width: 450px;
+    input {
+      width: 100%;
+      box-sizing: border-box;
+      border-radius: 10px;
+      border: none;
+      outline: 0;
+      display: block;
+      padding: 1.2em;
+      &::-webkit-input-placeholder {
+        color: $grayishBlue;
+      }
+    }
+    button {
+      width: 100%;
+      background: $softRed;
+      margin: 0;
+      margin-top: 1em;
+    }
+  }
+}
