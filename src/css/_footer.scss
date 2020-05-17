@@ -1,0 +1,15 @@
+.footer {
+  background-color: $veryDarkBlue;
+  padding: 1.5em;
+  text-align: center;
+  ul li {
+    padding: 1em;
+    text-transform: uppercase;
+    a {
+      color: white;
+    }
+  }
+  &__socials a {
+    padding: 0.5em;
+  }
+}
