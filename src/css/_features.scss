@@ -9,7 +9,7 @@
   }
   p {
     color: $grayishBlue;
-    font-size: 0.9em;
+    font-size: 0.85em;
     line-height: 1.8em;
   }
   &__tabs {
@@ -47,7 +47,7 @@
 
 .tabs__content {
   display: none;
-  padding: 2em;
+  padding: 2em 0;
   h2 {
     padding-top: 2em;
     font-size: 1.1em;

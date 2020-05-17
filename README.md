@@ -13,3 +13,4 @@ Preview of challenge:
 - Use tecnologies as Saas, Stylus or Less for styles.
 - Apply good practices lerned on courses.
 - Practice layout with HTML and CSS
+- Practice method first mobile

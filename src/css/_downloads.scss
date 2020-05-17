@@ -1,0 +1,42 @@
+.downloads {
+  padding: 3em 0;
+  text-align: center;
+  h2 {
+    padding: 1em;
+    font-size: 1.3em;
+    font-weight: 500;
+    color: $veryDarkBlue;
+  }
+  p {
+    color: $grayishBlue;
+    font-size: 0.85em;
+    line-height: 1.8em;
+  }
+  &__card {
+    width: 80%;
+    padding: 1.5em;
+    padding-top: 2.5em;
+    margin-top: 2.5em;
+    text-align: center;
+    border-radius: 1em;
+    background: url("../../images/bg-dots.svg") repeat-x center bottom 100px;
+    box-shadow: 0 10px 11px -5px rgba($veryDarkBlue, 0.5);
+    &-image {
+      padding: 2em 0;
+    }
+    &-title {
+      padding-bottom: 0.5em;
+      font-size: 1.1em;
+      font-weight: 500;
+      color: $veryDarkBlue;
+    }
+    p {
+      font-size: 0.8em;
+      margin-bottom: 2em;
+    }
+    &-button {
+      margin-top: 2em;
+      width: 100%;
+    }
+  }
+}

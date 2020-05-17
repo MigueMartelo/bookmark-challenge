@@ -179,7 +179,7 @@ body {
 }
 .features p {
   color: #9194a1;
-  font-size: 0.9em;
+  font-size: 0.85em;
   line-height: 1.8em;
 }
 .features__tabs {
@@ -216,7 +216,7 @@ body {
 
 .tabs__content {
   display: none;
-  padding: 2em;
+  padding: 2em 0;
 }
 .tabs__content h2 {
   padding-top: 2em;
@@ -228,6 +228,49 @@ body {
 }
 .tabs__content img {
   max-width: 100%;
+}
+
+.downloads {
+  padding: 3em 0;
+  text-align: center;
+}
+.downloads h2 {
+  padding: 1em;
+  font-size: 1.3em;
+  font-weight: 500;
+  color: #252b46;
+}
+.downloads p {
+  color: #9194a1;
+  font-size: 0.85em;
+  line-height: 1.8em;
+}
+.downloads__card {
+  width: 80%;
+  padding: 1.5em;
+  padding-top: 2.5em;
+  margin-top: 2.5em;
+  text-align: center;
+  border-radius: 1em;
+  background: url("../../images/bg-dots.svg") repeat-x center bottom 100px;
+  box-shadow: 0 10px 11px -5px rgba(37, 43, 70, 0.5);
+}
+.downloads__card-image {
+  padding: 2em 0;
+}
+.downloads__card-title {
+  padding-bottom: 0.5em;
+  font-size: 1.1em;
+  font-weight: 500;
+  color: #252b46;
+}
+.downloads__card p {
+  font-size: 0.8em;
+  margin-bottom: 2em;
+}
+.downloads__card-button {
+  margin-top: 2em;
+  width: 100%;
 }
 
 /*# sourceMappingURL=styles.css.map */
