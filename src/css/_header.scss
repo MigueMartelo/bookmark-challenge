@@ -1,0 +1,103 @@
+.header {
+  background: white;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1.5em 0;
+  &__logo {
+    display: inline-flex;
+    width: 150px;
+    height: 40px;
+    background: url("../../images/logo-bookmark.svg") no-repeat center;
+    background-size: contain;
+  }
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__nav {
+    visibility: hidden;
+    position: absolute;
+    opacity: 0;
+    left: 0;
+    right: 0;
+    top: 100%;
+    background-color: rgba($veryDarkBlue, 0.95);
+    height: 100vh;
+    ul {
+      padding: 0;
+    }
+    li {
+      border-top: 1px solid $grayishBlue;
+      &:last-child {
+        a {
+          border: 2px solid white;
+          border-radius: 5px;
+          margin-top: 1em;
+          padding: 0.7em;
+        }
+      }
+    }
+    a {
+      color: white;
+      text-transform: uppercase;
+      display: block;
+      text-align: center;
+      padding: 1.2em;
+      letter-spacing: 2px;
+    }
+    &-open {
+      //user-select: none;
+      width: 40px;
+      height: 40px;
+      display: inline-flex;
+      cursor: pointer;
+      background: url("../../images/icon-hamburger.svg") no-repeat center;
+    }
+    &-checkbox {
+      display: none;
+      &:checked {
+        & ~ .header {
+          background: rgba($veryDarkBlue, 0.95);
+          .header__nav-open {
+            background: url("../../images/icon-close.svg") no-repeat center;
+          }
+          & .header__logo {
+            background: url("../../images/logo-bookmark-white.svg") no-repeat center;
+          }
+          & .header__nav {
+            visibility: visible;
+            opacity: 1;
+          }
+          & .header__socials {
+            display: inline-block;
+            position: absolute;
+            top: 650px;
+            right: 30%;
+            img {
+              margin-right: 30px;
+            }
+          }
+        }
+      }
+    }
+    &-button {
+      width: 100%;
+      padding: 0.7em;
+      text-transform: uppercase;
+      background: none;
+      color: white;
+      font-weight: bold;
+      font-size: 1em;
+      margin-top: 1em;
+      border: 2px solid white;
+      border-radius: 5px;
+      letter-spacing: 2px;
+    }
+  }
+  &__socials {
+    display: none;
+  }
+}

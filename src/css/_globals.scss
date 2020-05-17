@@ -1,0 +1,26 @@
+$softBlue: hsl(231, 69%, 60%);
+$softRed: hsl(0, 94%, 66%);
+$grayishBlue: hsl(229, 8%, 60%);
+$veryDarkBlue: hsl(229, 31%, 21%);
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+:focus {
+  outline: none;
+}
+
+body {
+  font-size: 18px;
+  font-family: "Rubik", system-ui;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: auto;
+  padding: 0 1.5em;
+}
