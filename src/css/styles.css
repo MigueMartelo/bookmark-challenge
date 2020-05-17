@@ -14,6 +14,19 @@ body {
   font-family: "Rubik", system-ui;
 }
 
+h2 {
+  padding: 1em;
+  font-size: 1.3em;
+  font-weight: 500;
+  color: #252b46;
+}
+
+p {
+  color: #9194a1;
+  font-size: 0.85em;
+  line-height: 1.8em;
+}
+
 .wrapper {
   max-width: 1440px;
   margin: auto;
@@ -171,17 +184,6 @@ body {
   text-align: center;
   padding: 2em 0;
 }
-.features h2 {
-  padding: 1em;
-  font-size: 1.3em;
-  font-weight: 500;
-  color: #252b46;
-}
-.features p {
-  color: #9194a1;
-  font-size: 0.85em;
-  line-height: 1.8em;
-}
 .features__tabs {
   padding: 2em 0;
 }
@@ -234,17 +236,6 @@ body {
   padding: 3em 0;
   text-align: center;
 }
-.downloads h2 {
-  padding: 1em;
-  font-size: 1.3em;
-  font-weight: 500;
-  color: #252b46;
-}
-.downloads p {
-  color: #9194a1;
-  font-size: 0.85em;
-  line-height: 1.8em;
-}
 .downloads__card {
   width: 80%;
   padding: 1.5em;
@@ -271,6 +262,39 @@ body {
 .downloads__card-button {
   margin-top: 2em;
   width: 100%;
+}
+
+.questions {
+  text-align: center;
+  padding: 3em 0;
+}
+.questions .wrapper > p {
+  max-width: 580px;
+  margin: auto;
+}
+.questions__collapse {
+  text-align: left;
+  max-width: 580px;
+  margin: 2em auto;
+}
+.questions .collapse__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5em 0;
+  color: #252b46;
+  border-bottom: 1px solid #9194a1;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+.questions .collapse__header img {
+  float: right;
+}
+.questions .collapse__header::-webkit-details-marker {
+  display: none;
+}
+.questions .button {
+  padding: 1em 2em;
 }
 
 /*# sourceMappingURL=styles.css.map */

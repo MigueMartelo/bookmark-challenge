@@ -1,0 +1,34 @@
+.questions {
+  text-align: center;
+  padding: 3em 0;
+  .wrapper {
+    > p {
+      max-width: 580px;
+      margin: auto;
+    }
+  }
+  &__collapse {
+    text-align: left;
+    max-width: 580px;
+    margin: 2em auto;
+  }
+  .collapse__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em 0;
+    color: $veryDarkBlue;
+    border-bottom: 1px solid $grayishBlue;
+    font-size: 0.9em;
+    img {
+      float: right;
+    }
+    cursor: pointer;
+    &::-webkit-details-marker {
+      display: none;
+    }
+  }
+  .button {
+    padding: 1em 2em;
+  }
+}

@@ -1,17 +1,6 @@
 .features {
   text-align: center;
   padding: 2em 0;
-  h2 {
-    padding: 1em;
-    font-size: 1.3em;
-    font-weight: 500;
-    color: $veryDarkBlue;
-  }
-  p {
-    color: $grayishBlue;
-    font-size: 0.85em;
-    line-height: 1.8em;
-  }
   &__tabs {
     padding: 2em 0;
     &-container {

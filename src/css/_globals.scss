@@ -19,6 +19,18 @@ body {
   font-family: "Rubik", system-ui;
 }
 
+h2 {
+  padding: 1em;
+  font-size: 1.3em;
+  font-weight: 500;
+  color: $veryDarkBlue;
+}
+p {
+  color: $grayishBlue;
+  font-size: 0.85em;
+  line-height: 1.8em;
+}
+
 .wrapper {
   max-width: 1440px;
   margin: auto;

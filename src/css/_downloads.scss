@@ -1,17 +1,6 @@
 .downloads {
   padding: 3em 0;
   text-align: center;
-  h2 {
-    padding: 1em;
-    font-size: 1.3em;
-    font-weight: 500;
-    color: $veryDarkBlue;
-  }
-  p {
-    color: $grayishBlue;
-    font-size: 0.85em;
-    line-height: 1.8em;
-  }
   &__card {
     width: 80%;
     padding: 1.5em;
