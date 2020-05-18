@@ -482,6 +482,26 @@ p {
   margin-top: 1em;
 }
 
+@media screen and (min-width: 1024px) {
+  .contact .wrapper {
+    max-width: 50%;
+  }
+  .contact h3 {
+    font-size: 2em;
+  }
+  .contact__form {
+    display: flex;
+    margin: 0 auto;
+  }
+  .contact__form input {
+    padding: 0.5em;
+  }
+  .contact__form button {
+    width: 40%;
+    margin: 0;
+    margin-left: 20px;
+  }
+}
 .footer {
   background-color: #252b46;
   padding: 1.5em;

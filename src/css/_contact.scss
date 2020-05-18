@@ -37,3 +37,26 @@
     }
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .contact {
+    .wrapper {
+      max-width: 50%;
+    }
+    h3 {
+      font-size: 2em;
+    }
+    &__form {
+      display: flex;
+      margin: 0 auto;
+      input {
+        padding: 0.5em;
+      }
+      button {
+        width: 40%;
+        margin: 0;
+        margin-left: 20px;
+      }
+    }
+  }
+}
