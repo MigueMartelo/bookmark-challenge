@@ -31,6 +31,9 @@
         display: inline-block;
         padding: 0 1.5em;
         font-size: 0.8em;
+        a:hover {
+          color: $softRed;
+        }
       }
     }
   }

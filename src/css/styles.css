@@ -46,6 +46,14 @@ p {
   box-shadow: 0 5px 10px -5px #5368df;
 }
 
+@media screen and (min-width: 1024px) {
+  .button:hover {
+    background-color: white;
+    color: #5368df;
+    border: 2px solid #5368df;
+    padding: 0.9em 1em;
+  }
+}
 .header {
   background: white;
   position: sticky;
@@ -501,6 +509,12 @@ p {
     margin: 0;
     margin-left: 20px;
   }
+  .contact__form button:hover {
+    background-color: white;
+    border: 2px solid #fa5757;
+    padding: 0.9em 1em;
+    color: #fa5757;
+  }
 }
 .footer {
   background-color: #252b46;
@@ -537,6 +551,9 @@ p {
     display: inline-block;
     padding: 0 1.5em;
     font-size: 0.8em;
+  }
+  .footer ul li a:hover {
+    color: #fa5757;
   }
 }
 

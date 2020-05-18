@@ -49,3 +49,12 @@ p {
   cursor: pointer;
   box-shadow: 0 5px 10px -5px $softBlue;
 }
+
+@media screen and (min-width: 1024px) {
+  .button:hover {
+    background-color: white;
+    color: $softBlue;
+    border: 2px solid $softBlue;
+    padding: 0.9em 1em;
+  }
+}
