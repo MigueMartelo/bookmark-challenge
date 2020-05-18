@@ -145,6 +145,45 @@ p {
   display: none;
 }
 
+@media screen and (min-width: 1024px) {
+  .header__nav {
+    visibility: visible;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 1;
+    position: initial;
+    background: initial;
+    height: auto;
+    border: none;
+  }
+  .header__nav li {
+    display: inline-block;
+    border: none;
+  }
+  .header__nav li a {
+    color: #252b46;
+  }
+  .header__nav li a:hover {
+    color: #fa5757;
+  }
+  .header__nav li button {
+    background-color: #fa5757;
+    cursor: pointer;
+    padding: 0.5em 1em;
+    box-shadow: 0 5px 10px -5px #5368df;
+    border: none;
+  }
+  .header__nav li button:hover {
+    background-color: white;
+    color: #fa5757;
+    border: 2px solid #fa5757;
+    padding: 0.4em 0.9em;
+  }
+  .header__nav-open {
+    display: none;
+  }
+}
 .hero {
   text-align: center;
   padding: 3em 0;

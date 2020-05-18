@@ -101,3 +101,43 @@
     display: none;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .header__nav {
+    visibility: visible;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 1;
+    position: initial;
+    background: initial;
+    height: auto;
+    border: none;
+    li {
+      display: inline-block;
+      border: none;
+      a {
+        color: $veryDarkBlue;
+        &:hover {
+          color: $softRed;
+        }
+      }
+      button {
+        background-color: $softRed;
+        cursor: pointer;
+        padding: 0.5em 1em;
+        box-shadow: 0 5px 10px -5px $softBlue;
+        border: none;
+        &:hover {
+          background-color: white;
+          color: $softRed;
+          border: 2px solid $softRed;
+          padding: 0.4em 0.9em;
+        }
+      }
+    }
+    &-open {
+      display: none;
+    }
+  }
+}
