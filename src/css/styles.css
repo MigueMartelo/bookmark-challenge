@@ -219,6 +219,44 @@ p {
   color: #252b46;
 }
 
+@media screen and (min-width: 1024px) {
+  .hero__container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "content image";
+    text-align: left;
+    padding: 1em 0;
+  }
+  .hero__container .hero__image {
+    grid-area: image;
+  }
+  .hero__container .hero__back {
+    height: 350px;
+    width: 35%;
+    top: 300px;
+    right: -15px;
+    border-bottom-left-radius: 65px;
+  }
+  .hero__container .hero__content {
+    grid-area: content;
+    padding: 5em;
+  }
+  .hero__container .hero__content h1 {
+    font-size: 2.5em;
+  }
+  .hero__container .button:hover {
+    background-color: white;
+    color: #5368df;
+    border: 2px solid #5368df;
+    padding: 0.9em 0.8em;
+  }
+  .hero__container .hero__buttons-grey:hover {
+    border: 2px solid #9194a1;
+    color: #252b46;
+    padding: 0.9em 0.8em;
+  }
+}
 .features {
   text-align: center;
   padding: 2em 0;

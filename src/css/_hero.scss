@@ -34,3 +34,42 @@
     }
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .hero__container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "content image";
+    text-align: left;
+    padding: 1em 0;
+    .hero__image {
+      grid-area: image;
+    }
+    .hero__back {
+      height: 350px;
+      width: 35%;
+      top: 300px;
+      right: -15px;
+      border-bottom-left-radius: 65px;
+    }
+    .hero__content {
+      grid-area: content;
+      padding: 5em;
+      h1 {
+        font-size: 2.5em;
+      }
+    }
+    .button:hover {
+      background-color: white;
+      color: $softBlue;
+      border: 2px solid $softBlue;
+      padding: 0.9em 0.8em;
+    }
+    .hero__buttons-grey:hover {
+      border: 2px solid $grayishBlue;
+      color: $veryDarkBlue;
+      padding: 0.9em 0.8em;
+    }
+  }
+}
